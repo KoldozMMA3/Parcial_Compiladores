@@ -1,0 +1,23 @@
+digraph G {
+8 [style = filled fillcolor= aqua label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+7 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+7 -> 8
+7 [style = filled fillcolor= aqua label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+4 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+4 -> 7
+6 [style = filled fillcolor= aqua label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'i'>]
+4 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+4 -> 6
+5 [style = filled fillcolor= aqua label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+4 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+4 -> 5
+4 [style = filled fillcolor= aqua label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+0 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 -> 4
+3 [style = filled fillcolor= aqua label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+0 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 -> 3
+2 [style = filled fillcolor= aqua label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 -> 2
+}
